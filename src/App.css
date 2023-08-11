@@ -1,0 +1,72 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+    display: flex;
+}
+
+.App-button{
+    padding: 15px 25px;
+    margin: 4rem auto;
+    display: block;
+    border-style: ridge;
+    font-size: 20px;
+    cursor: pointer ;
+    outline: none;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(89, 87, 87, 0.582);
+    background-color: #ffffff90;
+}
+
+.App-button:active{
+    background-color: #8f8b8b;
+    transform: translateY(4px);
+    box-shadow: 0 5px rgb(247, 247, 247);
+}
+
+.App-button:hover{
+    background-color: #b69ebb88;
+}
+
+
+.App-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-shadow: 0px 3px 3px rgb(255, 255, 255), 0px -1px 1px rgba(0, 0, 0, 0.3);
+    color: black;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    background: transparent;
+    font-weight: 1000px;
+    padding: 4.5rem 0 0 0;
+}
+
+.App-phrase{
+    max-width: 600px;
+    font-family: "Rubik", sans-serif, Black;
+    font-weight: bolder;
+    box-shadow: 10px 10px rgb(153, 153, 153);
+    color: black;
+    padding: 5rem 3rem;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(248, 246, 246);
+    margin: 5rem 1rem;
+    text-align: center;
+    border: 3px white;
+    font-size: 18px; 
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+
