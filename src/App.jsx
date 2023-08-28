@@ -1,9 +1,9 @@
 
 import './App.css'
-import phrases from './data/phrases.json'
+import phrases from './utils/phrases.json'
 import PhraseLucky from './components/PhraseLucky'
 import ButtonRandom from './components/ButtonRandom'
-import getRandomElement from './data/getRandomElement'
+import getRandomElement from './utils/getRandomElement'
 import {useState} from 'react'
 
 const images = [1, 2, 3, 4]

@@ -1,6 +1,6 @@
 
-import getRandomElement from '../data/getRandomElement'
-import phrases from '../data/phrases.json'
+import getRandomElement from '../utils/getRandomElement'
+import phrases from '../utils/phrases.json'
 
 
 const ButtonRandom = ({clickAnother, clickRandomImage}) => {
